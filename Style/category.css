@@ -1,50 +1,66 @@
-#category{
-    display: flex;
-    margin:auto;
-    height:40px;
-    margin-top: 74px;
-    width: 70.5%;
-    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(0, 0, 35, 0.15) 0px 0px 0px 1px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-#category>div:nth-child(1){
-    width: 20%;
-    display: flex;
-    justify-content: space-between;
-    background-color: rgba(111, 207, 37, 0.832);
+#c-btn {
+    background-color: #6bc319;
     color: white;
-    padding: -0px 20px 15px 20px;
-    font-weight: 700;
-    
+    height: 35px;
+    width: 17%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+  }
+  #category {
+    margin-top:75px;
+    width:87%;
+    margin-left: 14%;
+  }
+  #category-list {
+    display: none;
+    position: absolute;
+    margin-top: 8px;
+    background-color: #f1f1f1;
+    width: 14.5%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  #category-list a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  #category-list a:hover {
+    background-color: #ddd;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
-#category>div:nth-child(1)>p:nth-child(2){
-  transform:rotate(90deg);
-  margin-top: 25px;
-}
-#category>div:nth-child(2){
+  
+  #category:hover #category-list {display: block;}
+  
+  #category:hover #c-btn {background-color: #3e8e41;}
+
+  #offer{
     display: flex;
-    padding-left: 10px;
-    width: 10%;
-    padding-right: 3px;
-}
-#category>div:nth-child(2)>img{
-    width: 80%;
+    width: 8%;
+    height: 35px;
+    margin-left: 29%;
+    margin-top: -35px;
+  }
+  #offer img{
+    width: 23%;
     height: 80%;
-    margin-top: 5px;
-}
-#category>div:nth-child(2):hover{
-   background-color:rgba(58, 112, 16, 0.832);
-   color: white;
-}
-#category>div:nth-child(2){
-    display: flex;
-    padding-left: 10px;
-}
-#category>div:nth-child(2)>p{
-    margin-top: 12px;
+    margin-left: 15PX;
+    margin-top: 4px;
+  }
+  #offer p{
+    margin-top: 7px;
     margin-left: 5px;
-    font-weight:lighter;
-}
-
-
-
+    font-weight: lighter;
+    color: rgb(53, 49, 49);
+  }
+  #offer:hover{
+    background-color: #6bc319;
+    cursor: pointer;
+  }
+  #offer p:hover{
+    color: white;
+  }
