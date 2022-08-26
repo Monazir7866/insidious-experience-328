@@ -1,0 +1,32 @@
+#mix{
+    display: flex;
+    margin: auto;
+    width: 70%;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.boxes{
+    width: 16%;
+}
+.boxes img{
+    width: 100%;
+}
+.boxes:hover{
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 7px;
+}
+
+#bank-offer{
+    display: flex;
+    margin: auto;
+    width: 70%;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.bank{
+    width: 22%;
+}
+.bank img{
+    width: 100%;
+}
