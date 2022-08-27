@@ -1,0 +1,9 @@
+.container{
+    margin: auto;
+    width: 70%;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+    border: 0.5px solid rgb(204, 203, 203);
+}
+.container img{
+    width: 100%;
+}
