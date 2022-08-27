@@ -8,6 +8,7 @@
 
 h1 {
     text-align: center;
+    font-weight: lighter;
     margin-top: 30px;
     margin-bottom: 5px;
 }
@@ -140,3 +141,49 @@ hr {
     background-color: rgb(144, 138, 23);
     color: white;
 }
+ img:hover{
+    cursor: pointer;
+ }
+
+ #fruit{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+ }
+ #fruit>div:nth-child(1){
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    width: 49%;
+ }
+ #fruit img{
+    width: 100%;
+ }
+ #fruit>div:nth-child(2){
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    grid-template-rows: repeat(2);
+    gap: 10px;
+    width: 49%;
+ }
+ #fruit>div>div{
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+ }
+ #staples{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+ }
+ .staple-box{
+    width: 16%;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+ }
+ .staple-box img{
+    width: 100%;
+ }
+ .staple-box:hover{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+ }
+ .bank:hover{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+ }
