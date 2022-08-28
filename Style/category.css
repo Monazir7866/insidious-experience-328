@@ -15,7 +15,7 @@
   #category-list {
     display: none;
     position: absolute;
-    margin-top: 8px;
+    margin-top: 1px;
     background-color: #f1f1f1;
     width: 14.5%;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
